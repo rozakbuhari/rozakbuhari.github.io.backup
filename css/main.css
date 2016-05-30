@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.618em; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p.weight1 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight2 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight3 {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight4 {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight5 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight6 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight7 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight8 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight9 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight10 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight11 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 30px; }
+
+p.weight12 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 30px; }
+
+h1 {
+  font-size: 64px;
+  line-height: 73px;
+  margin-bottom: 25px; }
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 35px; }
+
+p.weights {
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: #adadad;
+  margin-bottom: 35px;
+  border-width: 0px 0px 1px 0px;
+  border-style: dotted;
+  margin-top: 45px; }
+
+p.pullquote {
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 35px;
+  padding-left: 15px;
+  border-width: 0px 0px 0px 3px;
+  border-style: solid; }
+
+p.map {
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 27px;
+  line-height: 54px;
+  margin-top: 0px; }
+
+p.heading {
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 35px;
+  border-width: 0px 0px 1px 0px;
+  border-style: dotted;
+  margin-top: 45px;
+  color: black; }
+
+p.intro {
+  margin-bottom: 35px;
+  font-size: 21px;
+  line-height: 28px; }
+
+p.inverse-big {
+  background-color: #333333;
+  color: white;
+  padding: 30px;
+  margin-bottom: 0px; }
+
+p.inverse-med {
+  background-color: #333333;
+  color: white;
+  padding: 30px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-size: 15px; }
+
+p.inverse-small {
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: #333333;
+  color: white;
+  font-size: 13px; }
+
+p.inverse-heading {
+  background-color: #333333;
+  color: white;
+  padding: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-top: 50px; }
+
+body {
+  font-size: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  background-color: #f7f7f7; }
+
+div.main-wrapper {
+  margin: 0 auto;
+  display: block;
+  white-space: nowrap;
+  padding-bottom: 20px;
+  min-height: 100%;
+  width: auto;
+  max-width: 760px;
+  padding: 0 2%; }
+
+div {
+  white-space: normal;
+  box-sizing: border-box; }
+
+#logo {
+  display: inline-block; }
+
+nav {
+  display: inline-block;
+  float: right; }
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px; }
+
+.nav-item > a {
+  text-decoration: none; }
