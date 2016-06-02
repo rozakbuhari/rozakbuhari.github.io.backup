@@ -364,6 +364,11 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+@media screen and (max-width: 768px) {
+  .footer-text {
+    display: block !important;
+    margin: 0 !important; } }
+
 body {
   font-size: 13px;
   font-family: "Roboto";
