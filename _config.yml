@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+name: Rozak Buhari
+markdown: kramdown
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
