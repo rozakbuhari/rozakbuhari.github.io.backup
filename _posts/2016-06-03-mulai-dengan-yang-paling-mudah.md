@@ -16,4 +16,4 @@ Sudah pernah denger kan kata-kata itu, kalau saya sendiri denger kata-kata itu d
 
 Contohnya kita punya cita-cita punya website pribadi, seperti yang kita ketahui untuk membuat website itu tidak mudah kan, pertama kita butuh rancangan konten yang akan dimasukan, lalu kita harus membuat sketsa, membuat desain visual, setup tools yang pas, lalu coding dan testing, setelah selesai baru bisa di deploy. Bayangkan berapa banyak ilmu yang harus kita pelajari hanya untuk memulai.
 
-So, buang semua ukuran `mahir`, `jago`, `dewa` tersebut, kita bisa memulai dimana saja, skill pas-pasan bukan masalah, hasilnya seperti yang kita lihat website saya ini, minim sekali tidak ada warna, tidak ada sentuhan art, hanya modal typography, hosting pake Github Pages, tapi lihat cita-cita ini sudah berhasil dimulai.
+So, buang semua ukuran mahir tersebut, kita bisa memulai dimana saja, skill pas-pasan bukan masalah, hasilnya seperti yang kita lihat website saya ini, minim sekali tidak ada warna, tidak ada sentuhan art, hanya modal typography, hosting pake Github Pages, tapi lihat cita-cita ini sudah berhasil dimulai.
