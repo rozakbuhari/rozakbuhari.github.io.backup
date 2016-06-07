@@ -383,7 +383,7 @@ a {
 .main-wrapper {
   margin: 0 auto;
   display: block;
-  white-space: nowrap;
+  white-space: normal;
   padding-bottom: 20px;
   min-height: 100%;
   width: auto;
@@ -403,12 +403,15 @@ h1 {
   line-height: 73px;
   margin-bottom: 25px; }
 
+h1 a {
+  text-decoration: none; }
+
 p {
   font-size: 17px;
   line-height: 26px;
   margin-bottom: 35px; }
 
-.meta {
+p.meta {
   letter-spacing: 2px;
   font-size: 13px;
   margin-bottom: 35px;

@@ -5,10 +5,13 @@ title: Rozak Buhari
 
 <div class="content-wrapper">
   <article>
-    <div class="meta">Fathurozak Buhari on 02-06-2016</div>
     {% for post in site.posts limit:1 %}
-        <h1>{{ post.title }}</h1>
-        {{ post.excerpt }}
+        <p class="meta">
+            <span class="author">{{ post.author }}</span> on
+            <span class="date">{{ post.date | date_to_string }}</span>
+        </p>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.content }}
     {% endfor %}
   </article>
 </div>

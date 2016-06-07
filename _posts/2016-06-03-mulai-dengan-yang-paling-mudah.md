@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: post
+author: Fathurozak Buhari
 ---
-
-# Mulai Dengan yang Paling Mudah
 
 <p class="intro">One morning, when Gregor Samsa woke from troubled dreams, he found himself
 transformed in his bed into a horrible vermin. He lay on his armour-like
