@@ -1,12 +1,17 @@
 @import "reset";
 @import "media-lt-768";
 
+div {
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 13px;
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
 	color: #333333;
+	white-space: normal;
 	background-color: #f7f7f7;
 }
 
@@ -14,24 +19,18 @@ a {
 	color: inherit;
 }
 
+header {
+	margin-bottom: 50px;
+}
+
 .main-wrapper {
 	 margin: 0 auto;
 	 display: block;
-	 white-space: normal;
 	 padding-bottom: 20px;
 	 min-height: 100%;
 	 width: auto;
 	 max-width: 760px;
-	 padding: 30px 4%;
-}
-
-header {
-	margin-bottom: 100px;
-}
-
-div {
-	 white-space: normal;
-	 box-sizing: border-box;
+	 padding: 50px 4%;
 }
 
 h1 {
@@ -56,10 +55,16 @@ p {
    	margin-bottom: 35px;
    	border-width: 0px 0px 1px 0px;
    	border-style: dotted;
+	border-color: #848484;
    	margin-top: 45px;
    	color: rgba(0,0,0,1);
-   	line-height: 26px;
+   	line-height: 24px;
 }
+
+.meta > .date {
+	color: #848484;
+}
+
 .author {
 	letter-spacing: 2px;
 }
@@ -92,7 +97,7 @@ p.pullquote {
 
 nav {
 	display: inline-block;
-	width: 90%;
+	width: 89%;
 	text-align: right;
 }
 
