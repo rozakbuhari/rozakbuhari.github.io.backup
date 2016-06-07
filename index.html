@@ -4,50 +4,15 @@ layout: default
 title: Rozak Buhari
 ---
 
-<div>
+<div class="content-wrapper">
   <article>
-    <p class="heading">Rozak Buhari</p>
-    <h1>Grumpy wizards make toxic brew for the evil Queen and Jack.</h1>
-    <p class="intro">One morning, when Gregor Samsa woke from troubled dreams, he found himself
-      transformed in his bed into a horrible vermin. He lay on his armour-like
-      back, and if he lifted his head a little he could see his brown belly,
-      slightly domed and divided by arches into stiff sections. </p>
-    <p class="pullquote">"The bedding was hardly able to cover it and seemed ready to slide off any
-      moment. His many legs, pitifully thin compared with the size of the rest
-      of him, waved about helplessly as he looked."</p>
-    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself
-      transformed in his bed into a horrible vermin. He lay on his armour-like
-      back, and if he lifted his head a little he could see his brown belly,
-      slightly domed and divided by arches into stiff sections.</p>
-    <p class="weights">AVAILABLE WEIGHTS</p>
-    <p class="weight1">Grumpy wizards make toxic brew</p>
-    <p class="weight2">Grumpy wizards make toxic brew</p>
-    <p class="weight3">Grumpy wizards make toxic brew</p>
-    <p class="weight4">Grumpy wizards make toxic brew</p>
-    <p class="weight5">Grumpy wizards make toxic brew</p>
-    <p class="weight6">Grumpy wizards make toxic brew</p>
-    <p class="weight7">Grumpy wizards make toxic brew</p>
-    <p class="weight8">Grumpy wizards make toxic brew</p>
-    <p class="weight9">Grumpy wizards make toxic brew</p>
-    <p class="weight10">Grumpy wizards make toxic brew</p>
-    <p class="weight11">Grumpy wizards make toxic brew</p>
-    <p class="weight12">Grumpy wizards make toxic brew</p>
-    <p class="weights">CHARACTERS</p>
-    <p class="map">A B C D E F G H I J K L M N O P Q R S T U V X Y Z</p>
-    <p class="map">a b c d e f g h i j k l m n o p q r s t u v x y z</p>
-    <p class="map">1 2 3 4 5 6 7 8 9 0 - = _ + &lt; &gt; ? / . , : "</p>
-    <p class="inverse-heading">WHITE on BLACK</p>
-    <p class="inverse-big">One morning, when Gregor Samsa woke from troubled dreams, he found himself
-      transformed in his bed into a horrible vermin. He lay on his armour-like
-      back, and if he lifted his head a little he could see his brown belly,
-      slightly domed and divided by arches into stiff sections.</p>
-    <p class="inverse-med">One morning, when Gregor Samsa woke from troubled dreams, he found himself
-      transformed in his bed into a horrible vermin. He lay on his armour-like
-      back, and if he lifted his head a little he could see his brown belly,
-      slightly domed and divided by arches into stiff sections.</p>
-    <p class="inverse-small">One morning, when Gregor Samsa woke from troubled dreams, he found himself
-      transformed in his bed into a horrible vermin. He lay on his armour-like
-      back, and if he lifted his head a little he could see his brown belly,
-      slightly domed and divided by arches into stiff sections.</p>
+    {% for post in site.posts limit:1 %}
+        <div class="meta">
+            <div class="author">{{ post.author }}</div>
+            <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
+        </div>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.content }}
+    {% endfor %}
   </article>
 </div>

@@ -1,5 +1,6 @@
 @import "reset";
-@import "typecast";
+@import "media-lt-768";
+
 body {
 	font-size: 13px;
 	font-family: "Roboto";
@@ -9,15 +10,23 @@ body {
 	background-color: #f7f7f7;
 }
 
-div.main-wrapper {
+a {
+	color: inherit;
+}
+
+.main-wrapper {
 	 margin: 0 auto;
 	 display: block;
-	 white-space: nowrap;
+	 white-space: normal;
 	 padding-bottom: 20px;
 	 min-height: 100%;
 	 width: auto;
 	 max-width: 760px;
-	 padding: 0 2%;
+	 padding: 30px 4%;
+}
+
+header {
+	margin-bottom: 100px;
 }
 
 div {
@@ -25,20 +34,88 @@ div {
 	 box-sizing: border-box;
 }
 
+h1 {
+	 font-size: 64px;
+	 font-weight: 400;
+	 line-height: 73px;
+	 margin-bottom: 25px;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+p {
+	 font-size: 17px;
+	 line-height: 26px;
+	 margin-bottom: 35px;
+}
+
+.meta {
+	font-size: 13px;
+   	margin-bottom: 35px;
+   	border-width: 0px 0px 1px 0px;
+   	border-style: dotted;
+   	margin-top: 45px;
+   	color: rgba(0,0,0,1);
+   	line-height: 26px;
+}
+.author {
+	letter-spacing: 2px;
+}
+
+p.intro {
+   margin-bottom: 35px;
+   font-size: 21px;
+   line-height: 28px;
+}
+
+p.pullquote {
+   font-size: 17px;
+   line-height: 26px;
+   margin-bottom: 35px;
+   padding-left: 15px;
+   border-width: 0px 0px 0px 3px;
+   border-style: solid;
+}
+
 #logo {
 	display: inline-block;
+	font-size: 48px;
+	font-weight: 900;
+	width: 10%;
+}
+
+#logo span {
+	color: #848484;
 }
 
 nav {
 	display: inline-block;
-	float: right;
+	width: 90%;
+	text-align: right;
 }
 
 .nav-item {
 	list-style: none;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 15px;
 }
 .nav-item > a {
 	text-decoration: none;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+.footer-text {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer-text p {
+	font-size: 11px;
+	margin: 0;
+	line-height: 16px;
 }
