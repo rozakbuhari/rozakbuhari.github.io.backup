@@ -20,7 +20,7 @@ a {
 }
 
 header {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .main-wrapper {
@@ -82,6 +82,12 @@ p.pullquote {
    padding-left: 15px;
    border-width: 0px 0px 0px 3px;
    border-style: solid;
+}
+
+.quote-author {
+	color: #848484;
+	font-style: italic;
+	font-size: 14px;
 }
 
 #logo {
