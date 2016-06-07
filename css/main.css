@@ -411,8 +411,7 @@ p {
   line-height: 26px;
   margin-bottom: 35px; }
 
-p.meta {
-  letter-spacing: 2px;
+.meta {
   font-size: 13px;
   margin-bottom: 35px;
   border-width: 0px 0px 1px 0px;
@@ -420,6 +419,9 @@ p.meta {
   margin-top: 45px;
   color: black;
   line-height: 26px; }
+
+.author {
+  letter-spacing: 2px; }
 
 p.intro {
   margin-bottom: 35px;

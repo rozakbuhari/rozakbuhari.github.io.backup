@@ -4,7 +4,7 @@ layout: default
 
 <p class="meta">
     <span class="author">{{ page.author }}</span> on
-    <span class="date">{{ page.date | date_to_string }}</span>
+    <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
 </p>
 <h1>{{ page.title }}</h1>
 {{ content }}
