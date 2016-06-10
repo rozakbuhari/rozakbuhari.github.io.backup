@@ -365,6 +365,8 @@ textarea {
   /* 2 */ }
 
 @media screen and (max-width: 768px) {
+  .main-wrapper {
+    padding-top: 10px !important; }
   .footer-text {
     display: block !important;
     margin: 0 !important; } }
@@ -390,7 +392,6 @@ header {
 .main-wrapper {
   margin: 0 auto;
   display: block;
-  padding-bottom: 20px;
   min-height: 100%;
   width: auto;
   max-width: 760px;
