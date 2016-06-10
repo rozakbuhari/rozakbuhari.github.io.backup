@@ -5,7 +5,7 @@ author: Fathurozak Buhari
 
 <p class="intro">Hi teman-teman, di artikel yang pertama ini pada awalnya saya sedikit bingung akan memulai darimana,
 tapi setelah berfikir panjang akhirnya saya memutuskan untuk menulis judul di atas,
-yang intinya berkaitan juga dengan artikel ini *"Mulai dengan yang paling mudah"*. Jadi di artikel ini
+yang intinya berkaitan juga dengan artikel ini *Mulai dengan yang paling mudah*. Jadi di artikel ini
 saya akan menulis materi yang mudahsaja tentang tips memulai sesuatu.
 </p>
 
