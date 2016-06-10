@@ -7,9 +7,11 @@ title: Thoughts, stories, ideas
   <article>
     {% for post in site.posts limit:1 %}
         <div class="meta">
-            <div class="avatar"></div>
-            <div class="author">{{ post.author }}</div>
-            <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
+            <img class="avatar" src="https://avatars1.githubusercontent.com/u/15179909?v=3&s=256" alt="{{ post.author }}" />
+            <div class="meta-detail">
+                <div class="author">{{ post.author }}</div>
+                <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
+            </div>
         </div>
         <h1>{{ post.title }}</h1>
         {{ post.content }}
