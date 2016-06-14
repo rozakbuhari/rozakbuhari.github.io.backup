@@ -1,20 +1,30 @@
 ---
 layout: default
-title: Thoughts, Stories, Ideas
+title: Fathurozak Buhari | Thoughts, stories, ideas
 ---
 
 <div class="content-wrapper">
-  <article>
     {% for post in site.posts limit:1 %}
-        <div class="meta">
-            <img class="avatar" src="https://avatars1.githubusercontent.com/u/15179909?v=3&s=256" alt="{{ post.author }}" />
-            <div class="meta-detail">
-                <div class="author">{{ post.author }}</div>
-                <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
+        <article>
+            <div class="section group">
+                <div class="c-12">
+                    <div class="meta">
+                        <img class="avatar" src="https://avatars1.githubusercontent.com/u/15179909?v=3&s=256" alt="{{ post.author }}" />
+                        <div class="meta-detail">
+                            <div class="author">{{ post.author }}</div>
+                            <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
+                        </div>
+                    </div>
+                    <h1>{{ post.title }}</h1>
+                    {{ post.content }}
+                </div>
+            </div>
+        </article>
+        <div class="section group">
+            <div class="c-4">
+                <a class="btn btn-blue">Sebelumnya</a>
             </div>
         </div>
-        <h1>{{ post.title }}</h1>
-        {{ post.content }}
     {% endfor %}
-  </article>
+    <div></div>
 </div>

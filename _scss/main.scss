@@ -1,5 +1,10 @@
+$blue: #66a1ee;
+$dgrey: #848484;
+
 @import "reset";
 @import "media-lt-768";
+@import "grid";
+@import "button";
 
 div {
 	box-sizing: border-box;
@@ -12,7 +17,7 @@ body {
 	font-weight: 400;
 	color: #333333;
 	white-space: normal;
-	background-color: #f7f7f7;
+	background-color: #fafafa;
 }
 
 a {
@@ -21,6 +26,10 @@ a {
 
 header {
 	margin-bottom: 100px;
+}
+
+article {
+	margin-bottom: 50px;
 }
 
 .main-wrapper {
@@ -84,6 +93,7 @@ p {
 }
 
 .author {
+	color: $blue;
 	letter-spacing: 2px;
 }
 

@@ -1,0 +1,72 @@
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.c {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.c:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.c-12 {
+	width: 100%;
+}
+
+.c-11 {
+  	width: 91.53%;
+}
+.c-10 {
+  	width: 83.06%;
+}
+
+.c-9 {
+  	width: 74.6%;
+}
+
+.c-8 {
+  	width: 66.13%;
+}
+
+.c-7 {
+  	width: 57.66%;
+}
+
+.c-6 {
+  	width: 49.2%;
+}
+
+.c-5 {
+  	width: 40.73%;
+}
+
+.c-4 {
+  	width: 32.26%;
+}
+
+.c-3 {
+  	width: 23.8%;
+}
+
+.c-2 {
+  	width: 15.33%;
+}
+
+.c-1 {
+  	width: 6.866%;
+}
+
+@media only screen and (max-width: 480px) {
+	.c {  margin: 1% 0 1% 0%; }
+
+    .c-1, .c-2, .c-3, .c-4, .c-5, .c-6, .c-7, .c-8, .c-9, .c-10, .c-11, .c-12 {
+	width: 100%;
+	}
+}

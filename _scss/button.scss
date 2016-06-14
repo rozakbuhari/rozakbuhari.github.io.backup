@@ -1,0 +1,17 @@
+.btn {
+    text-decoration: none;
+    border: 1px solid $dgrey;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: $dgrey;
+}
+
+.btn-blue {
+    color: $blue;
+    border: 2px solid $blue;
+}
+
+.btn:hover {
+
+}
