@@ -1,13 +1,13 @@
 {
-  "name": "browser-sync-jekyll",
-  "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "name": "rozakbuhari.github.io",
+  "version": "0.1.0",
+  "description": "Fathurozak buhari's personal website",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shane Osbourne",
-  "license": "ISC",
+  "author": "Fathurozak Buhari",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-sass": "^2.1.0",
@@ -16,18 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "url": "https://github.com/rozakbuhari/rozakbuhari.github.io.git"
   },
   "keywords": [
-    "jekyll",
-    "gulp",
-    "sass",
-    "browsersync"
+    "rozakbuhari"
   ],
   "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+    "url": "https://github.com/rozakbuhari/rozakbuhari.github.io/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync",
+  "homepage": "https://github.com/rozakbuhari/rozakbuhari.github.io",
   "dependencies": {
     "gulp-shell": "^0.5.2"
   }

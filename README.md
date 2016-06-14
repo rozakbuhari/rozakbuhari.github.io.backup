@@ -1,2 +1,1 @@
-# rozakbuhari.github.io
-My Personal Blog
+# Fathurozak Buhari's Personal Blog
