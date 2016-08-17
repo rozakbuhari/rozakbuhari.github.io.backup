@@ -9,7 +9,7 @@ title: Fathurozak Buhari | Thoughts, stories, ideas
       <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
       <div class="post-meta">
         <div class="post-meta__author">{{ post.author }}</div>
-        <div class="post-meta__date">pada {{ post.date | date: "%-d %B %Y" }}</div>
+        <div class="post-meta__date">Pada {{ post.date | date: "%-d %B %Y" }}</div>
       </div>
       <a href="{{ post.url }}">
         <h2 class="post__title">{{ post.title }}</h2>
@@ -18,7 +18,7 @@ title: Fathurozak Buhari | Thoughts, stories, ideas
         {{ post.excerpt | strip_html | truncatewords: 50 }}
       </p>
       <div class="post-action">
-        <a href="{{ post.url }}" class="button button--blue button--medium">Mulai baca</a>
+        <a href="{{ post.url }}" class="button button--blue button--medium">Mulai membaca</a>
       </div>
     </div>
   {% endfor %}

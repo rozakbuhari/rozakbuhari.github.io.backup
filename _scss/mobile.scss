@@ -1,0 +1,30 @@
+@media all and (max-width: 780px) {
+  .header__wrapper,
+  .main__wrapper,
+  .footer__wrapper {
+  	width: 95% !important;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .logo--top {
+    display: block !important;
+    width: 48px !important;
+    height: 48px !important;
+    margin: 0 auto !important;
+    background-size: contain !important;
+  }
+  .menu--top {
+    display: none !important;
+  }
+  .post__title {
+    font-size: 22px !important;
+    line-height: 32px !important;
+  }
+  .post-action {
+    text-align: center !important;
+  }
+  .footer {
+    text-align: center;
+  }
+}

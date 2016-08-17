@@ -1,14 +1,76 @@
-.intro {
-   margin-bottom: 35px;
-   font-size: 21px;
-   line-height: 28px;
+body {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+	color: #4a4a4a;
 }
-
-.pullquote {
-   font-size: 17px;
-   line-height: 26px;
-   margin-bottom: 35px;
-   padding-left: 15px;
-   border-width: 0px 0px 0px 3px;
-   border-style: solid;
+blockquote {
+  margin: 0;
+  padding-left: 15px;
+  border-left: 3px solid $midgrey;
+  font-style: italic;
+}
+.menu__item-link {
+	font-size: 15px;
+}
+.post-meta__author {
+	color: $accent;
+	font-size: 15px;
+}
+.post-meta__date {
+	color: $midgrey;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.post__title {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 32px;
+	margin: 20px 0;
+}
+.post__title--single {
+	font-size: 62px;
+	line-height: 73px;
+	margin: 0 0 35px 0;
+}
+.post__title strong {
+  color: $accent;
+}
+.post__intro {
+  margin-top: 30px;
+  font-size: 17px !important;
+}
+.post--single p {
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 35px;
+}
+.post--single em {
+  font-weight: 300;
+}
+.post__excerpt {
+  font-size: 15px;
+	color: $midgrey;
+	margin-bottom: 20px;
+	line-height: 22px;
+}
+.article-action a {
+  font-size: 16px;
+  font-weight: 300;
+}
+.article-action__icon {
+	font-size: 26px;
+  margin: 0 10px;
+}
+.button--medium {
+	font-size: 14px;
+	line-height: 35px;
+}
+.footer__text {
+	font-size: 11px;
+}
+.footer a {
+  color: $accent;
 }

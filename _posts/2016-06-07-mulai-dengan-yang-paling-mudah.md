@@ -1,18 +1,13 @@
 ---
 layout: post
 author: Fathurozak Buhari
+category: Personal
 ---
-
-<p class="intro" markdown="1">Hi teman-teman, di artikel yang pertama ini pada awalnya saya sedikit bingung akan memulai darimana,
-tapi setelah berfikir panjang akhirnya saya memutuskan untuk menulis judul di atas,
+<p class="post__intro" markdown="1">Hi teman-teman, di artikel yang pertama ini pada awalnya saya sedikit bingung akan memulai darimana, tapi setelah berfikir panjang akhirnya saya memutuskan untuk menulis judul di atas,
 yang intinya berkaitan juga dengan artikel ini *"Mulai dengan yang paling mudah"*. Jadi di artikel ini
-saya akan menulis materi yang mudah saja tentang tips memulai sesuatu.
-</p>
+saya akan menulis materi yang mudah saja tentang tips memulai sesuatu.</p>
 
-<p class="pullquote">Tidak perlu mahir untuk memulai, ambil langkah maju sekarang
-    dan mulailah dengan yang paling mudah.
-    <span class="quote-author">&mdash; Anonymous</span>
-</p>
+>"Tidak perlu mahir untuk memulai, ambil langkah maju sekarang dan mulailah dengan yang paling mudah."
 
 Sudah pernah dengar kan kata-kata itu, saya sendiri dengar kata-kata itu dari bintang tamu di acara hitam putih Trans7, tapi saya lupa nama bintang tamu tersebut, waktu itu saya sedikit menangkap materi dan yang saya tangkap bahwa kita bisa memulai sesuatu yang kita cita-citakan dengan kemampuan kita sekarang tanpa harus menunggu mahir dahulu.
 
