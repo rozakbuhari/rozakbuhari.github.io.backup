@@ -3,28 +3,23 @@ layout: default
 title: Fathurozak Buhari | Thoughts, stories, ideas
 ---
 
-<div class="content-wrapper">
-    {% for post in site.posts limit:1 %}
-        <article>
-            <div class="section group">
-                <div class="c-12">
-                    <div class="meta">
-                        <img class="avatar" src="https://avatars1.githubusercontent.com/u/15179909?v=3&s=256" alt="{{ post.author }}" />
-                        <div class="meta-detail">
-                            <div class="author">{{ post.author }}</div>
-                            <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
-                        </div>
-                    </div>
-                    <h1>{{ post.title }}</h1>
-                    {{ post.content }}
-                </div>
-            </div>
-        </article>
-        <div class="section group">
-            <div class="c-4">
-                <a class="btn btn-blue">Sebelumnya</a>
-            </div>
-        </div>
-    {% endfor %}
-    <div></div>
+<div class="posts">
+  {% for post in site.posts %}
+    <div class="post">
+      <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
+      <div class="post-meta">
+        <div class="post-meta__author">{{ post.author }}</div>
+        <div class="post-meta__date">pada {{ post.date | date: "%-d %B %Y" }}</div>
+      </div>
+      <a href="{{ post.url }}">
+        <h2 class="post__title">{{ post.title }}</h2>
+      </a>
+      <p class="post__excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 50 }}
+      </p>
+      <div class="post-action">
+        <a href="{{ post.url }}" class="button button--blue button--medium">Mulai baca</a>
+      </div>
+    </div>
+  {% endfor %}
 </div>

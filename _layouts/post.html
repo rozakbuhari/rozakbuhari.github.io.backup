@@ -2,9 +2,12 @@
 layout: default
 ---
 
-<p class="meta">
-    <span class="author">{{ page.author }}</span> on
-    <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
-</p>
-<h1>{{ page.title }}</h1>
-{{ content }}
+<div class="post post--single">
+  <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
+  <div class="post-meta">
+    <div class="post-meta__author">{{ page.author }}</div>
+    <div class="post-meta__date">pada {{ page.date | date: "%-d %B %Y" }}</div>
+  </div>
+  <h1 class="post__title post__title--single">{{ page.title }}</h1>
+  {{  page.content }}
+</div>
