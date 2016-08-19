@@ -8,8 +8,12 @@ var cp          = require('child_process');
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
-    return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
-        .on('close', done);
+    return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build'],
+              {
+                stdio: 'inherit',
+                JEKYLL_ENV: 'development'
+              })
+           .on('close', done);
 });
 
 /**

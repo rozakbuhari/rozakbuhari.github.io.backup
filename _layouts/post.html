@@ -16,17 +16,19 @@ layout: default
     <div class="post-meta__date">Pada {{ page.date | date: "%-d %B %Y" }}</div>
   </div>
   {{  page.content }}
-  <div id="disqus_thread"></div>
+  {% if jekyll.environment != 'development' %}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.url = "{{ site.url}}{{ page.url }}";
+        this.page.identifier = "{{ page.slug }}";
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = '//rozakbuhari.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+  {% endif %}
 </div>
-<script>
-var disqus_config = function () {
-    this.page.url = "{{ site.url}}{{ page.url }}";
-    this.page.identifier = "{{ page.slug }}";
-};
-(function() {
-    var d = document, s = d.createElement('script');
-    s.src = '//rozakbuhari.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>

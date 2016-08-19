@@ -1,7 +1,9 @@
 ---
 layout: post
+description: Tidak perlu mahir untuk memulai, ambil langkah maju sekarang dan mulailah dengan yang paling mudah.
+category: Opini
 author: Fathurozak Buhari
-category: Personal
+keywords: memulai sesuatu, start
 ---
 <p class="post__intro" markdown="1">Hi teman-teman, di artikel yang pertama ini pada awalnya saya sedikit bingung akan memulai darimana, tapi setelah berfikir panjang akhirnya saya memutuskan untuk menulis judul di atas,
 yang intinya berkaitan juga dengan artikel ini *"Mulai dengan yang paling mudah"*. Jadi di artikel ini
