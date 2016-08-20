@@ -17,7 +17,6 @@
     <link rel="icon" href="/img/favicon.png">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300italic,300,400italic,400,500">
     <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="all">
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.css" media="all">
   </head>
   <body>
     <header class="header">
@@ -69,6 +68,16 @@
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-82767915-1', 'auto');
         ga('send', 'pageview');
+
+        var cb = function() {
+          var l = document.createElement('link'); l.rel = 'stylesheet';
+          l.href = '/css/main.css';
+          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
       </script>
     {% endif %}
   </body>
