@@ -30,27 +30,26 @@ a {
 .logo {
 	display: inline-block;
 	vertical-align: middle;
-	background: url("/img/logo.png");
-	background-repeat: no-repeat;
+	background: url("/img/logo-48x.png") no-repeat;
 }
 .logo--top {
-	width: 10%;
+	width: 8%;
 	height: 48px;
 	margin-right: -2px;
-	background-size: 62px;
+	background-size: 48px;
 }
 .logo--footer {
 	width: 42px;
 	height: 42px;
-	background-size: 42px;
-	background-position: bottom;
+	background-size: 32px;
+	background-position: right;
 }
 .menu {
 	display: inline-block;
 	vertical-align: middle;
 }
 .menu--top {
-	width: 90%;
+	width: 92%;
 	margin-left: -2px;
 	text-align: right;
 }
@@ -76,7 +75,7 @@ a {
 	border-radius: 18px;
 }
 .main {
-	min-height: 80vh;
+	min-height: 85vh;
 }
 .main__wrapper {
 	width: $boxWidth;
@@ -132,7 +131,7 @@ a {
 }
 .footer {
 	padding: 20px 0;
-	min-height: 20vh;
+	min-height: 100px;
 	box-shadow: 0 0 1px rgba(0,0,0,.15);
 	background: #ffffff;
 }
