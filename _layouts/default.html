@@ -78,7 +78,7 @@
             var l = document.createElement('link'); l.rel = 'stylesheet';
             l.href = styles[i];
             var h = document.getElementsByTagName('head')[0];
-            h.parentNode.insertBefore(l, h);
+            h.appendChild(l);
           }
         };
         var raf = requestAnimationFrame || mozRequestAnimationFrame ||
