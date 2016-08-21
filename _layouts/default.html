@@ -16,48 +16,50 @@
     <link rel="icon" href="/img/favicon.png">
   </head>
   <body>
-    <header class="header">
-      <div class="header__wrapper">
-        <a href="/">
-          <div class="logo logo--top"></div>
-        </a>
-        <div class="menu menu--top">
-          <ul class="menu__item-wrapper">
-            <li class="menu__item">
-              <a href="/" class="menu__item-link">
-                Beranda
-              </a>
-            </li>
-            <li class="menu__item">
-              <a href="https://github.com/rozakbuhari" class="menu__item-link">
-                Tentang
-              </a>
-            </li>
-            <li class="menu__item">
-              <a href="/feed.xml" class="menu__item-link menu__item-link--focus">
-                Subscribe
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="main">
-      <div class="main__wrapper">
-        {{ content }}
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <div class="logo logo--footer"></div>
-        <div class="footer__text">
-          <div>Fathurozak Buhari adalah seorang Software Engineer.</div>
-          <div>Jika anda ingin bekerjasama dengannya, silahkan email ke
-            <a href="mailto:rozakbuhari@gmail.com">rozakbuhari@gmail.com</a>
+    <div class="container" style="display: none;">
+      <header class="header">
+        <div class="header__wrapper">
+          <a href="/">
+            <div class="logo logo--top"></div>
+          </a>
+          <div class="menu menu--top">
+            <ul class="menu__item-wrapper">
+              <li class="menu__item">
+                <a href="/" class="menu__item-link">
+                  Beranda
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="https://github.com/rozakbuhari" class="menu__item-link">
+                  Tentang
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="/feed.xml" class="menu__item-link menu__item-link--focus">
+                  Subscribe
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </footer>
+      </header>
+      <section class="main">
+        <div class="main__wrapper">
+          {{ content }}
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="logo logo--footer"></div>
+          <div class="footer__text">
+            <div>Fathurozak Buhari adalah seorang Software Engineer.</div>
+            <div>Jika anda ingin bekerjasama dengannya, silahkan email ke
+              <a href="mailto:rozakbuhari@gmail.com">rozakbuhari@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
     <script>
     {% if jekyll.environment != "development" %}
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

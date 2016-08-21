@@ -17,6 +17,9 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+.container {
+	display: block !important;
+}
 .header {
 	background: #ffffff;
 	border-top: 3px solid $accent;

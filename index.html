@@ -12,7 +12,11 @@ og_image: /img/post/home.jpg
     <div class="post">
       <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
       <div class="post-meta">
-        <div class="post-meta__author">{{ post.author }}</div>
+        <div class="post-meta__author">
+          <a href="https://github.com/rozakbuhari">
+            {{ post.author }}
+          </a>
+        </div>
         <div class="post-meta__date">Pada {{ post.date | date: "%-d %B %Y" }}</div>
       </div>
       <a href="{{ post.url }}">
