@@ -78,12 +78,12 @@
             var l = document.createElement('link'); l.rel = 'stylesheet';
             l.href = styles[i];
             var h = document.getElementsByTagName('head')[0];
-            h.appendChild(l);
+            h.parentNode.insertBefore(l, h);
           }
         };
         var raf = requestAnimationFrame || mozRequestAnimationFrame ||
             webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(loadDeferredStyles);
+        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
         else window.addEventListener('load', loadDeferredStyles);
     </script>
   </body>
