@@ -107,6 +107,14 @@ a {
 	vertical-align: top;
 	margin-left: 10px;
 }
+.post-meta__item {
+	display: inline-block;
+	margin-right: 10px;
+}
+.post-meta__author {
+	display: block;
+}
+
 .post-action {
 	text-align: right;
 }

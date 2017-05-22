@@ -13,6 +13,9 @@
     <meta name="keywords" content="{{ page.keywords }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
     <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300italic,300,400italic,400,500">
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="icon" href="/img/favicon.png">
   </head>
   <body>
@@ -30,7 +33,7 @@
                 </a>
               </li>
               <li class="menu__item">
-                <a href="https://github.com/rozakbuhari" class="menu__item-link">
+                <a href="https://www.linkedin.com/in/rozakbuhari" class="menu__item-link">
                   Tentang
                 </a>
               </li>
@@ -53,39 +56,21 @@
           <div class="logo logo--footer"></div>
           <div class="footer__text">
             <div>Fathurozak Buhari adalah seorang Software Engineer.</div>
-            <div>Jika anda ingin bekerjasama dengannya, silahkan email ke
-              <a href="mailto:rozakbuhari@gmail.com">rozakbuhari@gmail.com</a>
-            </div>
+            <div><i>"Knowledge without action is wastefulness and action without knowledge is foolishness."</i> &mdash; Al-Imam Al-Ghazali</div>
           </div>
         </div>
       </footer>
     </div>
-    <script>
     {% if jekyll.environment != "development" %}
+    <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-82767915-1', 'auto');
         ga('send', 'pageview');
-    {% endif %}
-        var loadDeferredStyles = function() {
-          var styles = [
-            '/css/main.css',
-            '//fonts.googleapis.com/css?family=Roboto:300italic,300,400italic,400,500',
-            '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'];
-          for (var i = 0; i < styles.length; i++) {
-            var l = document.createElement('link'); l.rel = 'stylesheet';
-            l.href = styles[i];
-            var h = document.getElementsByTagName('head')[0];
-            h.appendChild(l);
-          }
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-        else window.addEventListener('load', loadDeferredStyles);
     </script>
+    {% endif %}
   </body>
 
 </html>

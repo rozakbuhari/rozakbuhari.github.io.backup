@@ -12,12 +12,19 @@ og_image: /img/post/home.jpg
     <div class="post">
       <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
       <div class="post-meta">
-        <div class="post-meta__author">
+        <div class="post-meta__item post-meta__author">
           <a href="https://github.com/rozakbuhari">
             {{ post.author }}
           </a>
         </div>
-        <div class="post-meta__date">Pada {{ post.date | date: "%-d %B %Y" }}</div>
+        <div class="post-meta__item post-meta__date">
+          <span class="ion-ios-calendar ion"></span>
+          {{ post.date | date: "%-d %B %Y" }}
+        </div>
+        <div class="post-meta__item">
+          <span class="ion-ios-time-outline ion"></span>
+          {{ post.read_time }} min.
+        </div>
       </div>
       <a href="{{ post.url }}">
         <h2 class="post__title">{{ post.title }}</h2>
