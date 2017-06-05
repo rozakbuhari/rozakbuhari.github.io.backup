@@ -5,4 +5,4 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "Gemfile.loc
 permalink: none
 gems:
   - jekyll-feed
-url:  http://rozakbuhari.com
+url:  http://localhost:3000

@@ -8,7 +8,7 @@ var cp          = require('child_process');
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
-    return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build'],
+    return cp.spawn( 'bundle' , ['exec', 'jekyll', 'build', '--config=_config.dev.yml'],
               {
                 stdio: 'inherit',
                 JEKYLL_ENV: 'development'

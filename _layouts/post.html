@@ -5,20 +5,27 @@ layout: default
 <div class="article-action">
   <a href="/">
     <span class="ion-ios-arrow-thin-left article-action__icon"></span>
-    <span>Beranda</span>
+    <span>Home</span>
   </a>
 </div>
 <div class="post post--single">
   <h1 class="post__title post__title--single">{{ page.title }}</h1>
   <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
-  <div class="post-meta">
-    <div class="post-meta__author">
-      <a href="https://github.com/rozakbuhari">
-        {{ page.author }}
-      </a>
-    </div>
-    <div class="post-meta__date">Pada {{ page.date | date: "%-d %B %Y" }}</div>
-  </div>
+      <div class="post-meta">
+        <div class="post-meta__item post-meta__author">
+          <a href="https://github.com/rozakbuhari">
+            {{ page.author }}
+          </a>
+        </div>
+        <div class="post-meta__item post-meta__date">
+          <span class="ion-ios-calendar ion"></span>
+          {{ page.date | date: "%-d %B %Y" }}
+        </div>
+        <div class="post-meta__item">
+          <span class="ion-ios-time-outline ion"></span>
+          {{ page.read_time }} min.
+        </div>
+      </div>
   {{  page.content }}
 {% if jekyll.environment != 'development' %}
   <div id="disqus_thread"></div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Selamat Datang
+title: Skill, Knowledge, Attitude
 description: Disini adalah tempat berbagi pengetahuan tentang teknologi, ilmu komputer (Computer Science), dan pengembangan perangkat lunak (Software Engineering).
 author: Fathurozak Buhari
 keywords: teknologi, computer science, software engineering, fathurozak buhari, rozakbuhari
@@ -13,7 +13,7 @@ og_image: /img/post/home.jpg
       <img src="/img/rozakbuhari-avatar.jpg" alt="" class="post__avatar">
       <div class="post-meta">
         <div class="post-meta__item post-meta__author">
-          <a href="https://github.com/rozakbuhari">
+          <a href="#profile">
             {{ post.author }}
           </a>
         </div>
@@ -33,7 +33,7 @@ og_image: /img/post/home.jpg
         {{ post.excerpt | strip_html | truncatewords: 50 }}
       </p>
       <div class="post-action">
-        <a href="{{ post.url }}" class="button button--blue button--medium">Mulai membaca</a>
+        <a href="{{ post.url }}" class="button button--blue button--medium">Read Now</a>
       </div>
     </div>
   {% endfor %}
